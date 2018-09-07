@@ -1,0 +1,21 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "HackerRank challenges",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valtism/hackerrank.git"
+  },
+  "author": "Dan Wood",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/valtism/hackerrank/issues"
+  },
+  "homepage": "https://github.com/valtism/hackerrank#readme",
+  "dependencies": {
+    "jest": "^23.5.0"
+  }
+}
