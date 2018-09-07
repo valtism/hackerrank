@@ -1,5 +1,5 @@
-const sum = require('./leftRotation');
+const leftRotation = require("./leftRotation");
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test("sample", () => {
+    expect(leftRotation([1, 2, 3, 4, 5], 4)).toEqual([5, 1, 2, 3, 4]);
 });
